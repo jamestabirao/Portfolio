@@ -39,7 +39,7 @@ nav.black
 }
 nav.black .logo img
 {
-  background-image: url(img/JT_WHITE.png);
+  background-image: url('img/JT_WHITE.png');
 }
 nav ul{
   display: flex;
@@ -95,7 +95,7 @@ nav.black i{
 section{
   width: 100vw;
   height: 100vh;
-  background-image: url(/img/JamesBG.jpg);
+  background-image: url('img/JamesBG.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
@@ -384,16 +384,16 @@ button:active{
   
 }
 .box-1{
-  background-image: url(/img/WEBDEV.png);
+  background-image: url('img/WEBDEV.png');
   }
 .box-2{
-  background-image: url(/img/VIDEO.png);
+  background-image: url('img/VIDEO.png');
   }
 .box-3{
-  background-image: url(/img/UIUX.png);
+  background-image: url('img/UIUX.png');
 }
 .box-4{
-  background-image: url(/img/SEO.png);
+  background-image: url('img/SEO.png');
 }
 
 .box-1 span,
