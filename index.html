@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+  <html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description=" content="You need a Website to be known WorldWide, Check out my Services">
+        <meta name="keywords" content="services, personal website, html, web development">
+        <meta name="author" content="James Tabirao">
+          <title>James Tabirao - Interactive Resume</title>
+      <script src="https://kit.fontawesome.com/9febe3451e.js" crossorigin="anonymous"></script>
+            <link rel="preconnect" href="https://fonts.gstatic.com">
+            <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+            <link rel="preconnect" href="https://fonts.gstatic.com">
+            <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=PT+Sans&display=swap" rel="stylesheet">
+            <link rel="stylesheet" type="text/css" href="/css/style.css">
+      <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+      <script type="text/javascript">
+          $(window).on('scroll', function(){
+              if($(window).scrollTop()){
+                  $('nav').addClass('black');
+              }
+              else
+              {
+                $('nav').removeClass('black')
+              }
+          })
+
+      </script>
+      <script type="text/javascript">
+        $(window).on('scroll', function(){
+            if($(this).scrollTop()>5){
+                $(".nav .logo img").attr("src","./img/JT_WHITE.png");
+            }
+            else
+            {
+              $(".nav .logo img").attr("src","./img/JT_GREY.png");
+            }
+        })
+
+    </script>
+    </head>
+    <body>
+       <section class="main">
+        <!--navigation-------------------------------------->
+       
+          <nav class="nav">
+          <!--logo-->
+          <a class="logo" href="#home"><img src="./img/JT_GREY.png" height="40px" width="80"></a>
+          <!--menu-->
+          <ul class="menu">
+            <li><a href="#home" class="active">HOME</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#services">SERVICES</a></li>
+            <li><a href="#contact">CONTACT US</a></li>
+          </ul>
+          <div class="icons">
+            <a href="https://www.facebook.com/"><i class="fab fa-facebook-square"></i></a>
+            <a href="https://www.linkedin.com/"><i class="fab fa-instagram-square"></i></a>
+            <a href="https://www.instagram.com/"><i class="fab fa-linkedin"></i></a>
+          </div>
+
+          </nav>
+     
+      <!--text------------------------------------------->
+      <section id="home">
+          <div class="text-container" >
+            <p>Hello,</p>
+            <p>I'M JAMES</p>
+            <p>UX Designer <br>& Video Editor </p>
+            <a href="#contact"><button class="hire-btn">HIRE ME</button></a>
+            <a href="#about"><button class="know">KNOW MORE</button></a>
+         </div>
+      <!--model--------------------------------------------->  
+      </section>
+      <!--about--------------------------------------------->
+      
+        <div class="about-container" id="about">
+      <!--img----------------------------------------------->
+        <img src="img/James.png">
+      <!--about--------------------------------------------->
+        <div class="about-text">
+          <p>About Me</p>
+          
+          <p>Hello, My name is James Tabirao, I am a UX Designer and Video Editor as well, and that is my passion. I like to play basketball, travel, cook and work on my businesses.<br><br> Let me get this straight, You need a website that looks amazing and actually works, and thats where I come in, drop a message and see what is worth working with me.</p>
+        <!--button--------------------------------------------->
+          
+        <p><i>Let's Collab!</i></p>
+           <a href="#contact"><button class="cntct">CONTACT ME</button></a>
+        </div>
+      </div>
+          <!--services--------------------------------------------->
+      <!--BOX 1---------------------------->
+
+     <div class="skills">
+        <p>SKILLS</p>
+        <p>See My Spoken Skills Below</p>
+      </div>
+
+      <div class="skill-container">
+      <div class="skill-1">
+
+        <div class="skillbox"><p>HTML5</p><p>80%</p><div class="skill"><div class="skill_level" style="width: 80%;"></div></div></div>
+        <div class="skillbox"><p>CSS3</p><p>80%</p><div class="skill"><div class="skill_level" style="width: 80%;"></div></div></div>
+        <div class="skillbox"><p>JQUERY</p><p>75%</p><div class="skill"><div class="skill_level" style="width: 75%;"></div></div></div>
+        <div class="skillbox"><p>SEO</p><p>90%</p><div class="skill"><div class="skill_level" style="width: 90%;"></div></div></div>
+
+      </div>
+
+      <div class="skill-2">
+
+        <div class="skillbox"><p>PHOTOSHOP</p><p>94%</p><div class="skill"><div class="skill_level" style="width: 94%;"></div></div></div>
+        <div class="skillbox"><p>ILLUSTRATOR</p><p>95%</p><div class="skill"><div class="skill_level" style="width: 95%;"></div></div></div>
+        <div class="skillbox"><p>PREMIERE PRO</p><p>83%</p><div class="skill"><div class="skill_level" style="width: 83%;"></div></div></div>
+        <div class="skillbox"><p>AFTER EFFECTS</p><p>85%</p><div class="skill"><div class="skill_level" style="width: 85%;"></div></div></div>
+
+      </div>
+    </div>
+     
+      <div class="services">
+      <!--text------------------------------------------------->
+      <div class="services-text" id="services">
+        <h1>Services</h1>
+        <p>Great brand experiences persuade, convert, and inspire –and they’re built on a foundation of brilliant, strategic design.</p>
+      </div>
+      </div>
+    
+        <!--box------------------------------------------------>
+        <div class="skill-boxes">
+        <div class="box-container">
+          <div class="box-1">
+            <span>Web Development</span>
+            <p class="details"> An effective Website with great content increases the probability for increased sales. An online presence helps in terms of building and fostering a rapport among your customers.</p>
+          </div>
+          <div class="box-2">
+            <span>Video Editor</span>
+            <p class="details">Boosts Productivity. Apart from being economical and time-saving. It is a straightforward deduction, it saves time, it saves efforts, and it also saves funds, ergo allowing you to implement the resources elsewhere.</p>
+          </div>
+          <div class="box-3">
+            <span>UX Experience</span>
+            <p class="details">Companies rely on attractive interfaces, appealing content, and well-crafted marketing strategies to promote their web and mobile apps. In a nutshell, great UX design makes an app easy and pleasant to use and, as a result, increases customer satisfaction.</p>
+          </div>
+          <div class="box-4">
+            <span>SEO</span>
+            <p class="details">SEO services help you get quality website traffic One of the most significant advantages of SEO is that you'll obtain quality traffic for your business. SEO requires optimizations to help you appear in relevant search results.</p>
+          </div>
+
+        </div>
+      </div>
+
+<!--contact me------------------------------------------------>
+    <div class="contact">
+      <p> - Invest in Ideas That Matter - </p>
+    </div>
+
+    <footer>
+      <p id="contact">Need help? Let’s discuss your needs in detail.</p>
+      <p>Find me in these buttons</p>
+      <div class="arrow">
+      <i class="fas fa-caret-down"></i>
+    </div>
+
+      <div class="social-icons">
+        <div class="facebook"><a href="https://www.facebook.com"><i class="fab fa-facebook-square"></i></a></div>
+        <div class="insta"><a href="https://www.instagram.com"><i class="fab fa-instagram-square"></i></a></div>
+        <div class="linkd"><a href="https://www.linkedin.com"><i class="fab fa-linkedin"></i></a></div>
+        </div>
+        <p class="copyright">Copyright &copy; 2020 James Tabirao</p>
+    </footer>
+  </section>
+   </body>
+
+  </html>
